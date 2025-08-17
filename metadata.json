@@ -1,0 +1,21 @@
+{
+  "KPlugin": {
+    "Name": "Move Window Cyclic",
+    "Description": "Fenster zyklisch verschieben",
+    "Icon": "window-move",
+    "Authors": [
+      {
+	  "Email": "isrok2001@gmail.com",
+          "Name": "isrok"
+      }
+    ],
+    "Version": "1.0",
+    "Website": "",
+    "Category": "Window Management",
+    "Id": "movewindowcyclic",
+    "EnabledByDefault": false
+  },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
