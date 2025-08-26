@@ -94,7 +94,7 @@ GPL-3.0 License - see [LICENSE](LICENSE) for details.
 
 ## 👨‍💻 Author
 
-**isrok** - [isrok2001@gmail.com](mailto:isrok2001@gmail.com)
+**EnteRth3Void** - [aeisenbr.dev@gmail.com](mailto:aeisenbr.dev@gmail.com)
 
 ## 📝 Changelog
 
