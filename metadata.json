@@ -1,8 +1,9 @@
 {
   "KPlugin": {
     "Name": "Move Window Cyclic",
-    "Description": "Fenster zyklisch verschieben",
+    "Description": "Cycle the active window between positions and sizes",
     "Icon": "window-move",
+    "License": "GPL-3.0-or-later",
     "Authors": [
       {
 	  "Email": "isrok2001@gmail.com",
