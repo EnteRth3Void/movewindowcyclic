@@ -69,12 +69,36 @@ const config = {
 };
 ```
 
+### Customizing Window Sizes
+
+You can modify the percentage values for each position by editing the `presets` object in `main.js`:
+
+```javascript
+const presets = {
+  NB8: { action: "TOP", percentages: [50, 33, 20, 67] },     // Top position
+  NB2: { action: "BOTTOM", percentages: [50, 33, 20, 67] },  // Bottom position
+  NB4: { action: "LEFT", percentages: [50, 33, 20, 67] },    // Left position
+  NB6: { action: "RIGHT", percentages: [50, 33, 20, 67] },   // Right position
+  NB5: { action: "MIDDLE", percentages: [50, 33, 60] },      // Middle position
+  // ... and so on
+};
+```
+
+Each `percentages` array defines the cycle of window sizes (in % of screen width/height) that the window will go through when repeatedly pressing the same shortcut.
+
 ## 📱 Supported Windows
 
 - ✅ All normal application windows
 - ✅ Maximized windows (automatically restored)
 - ❌ Minimized windows (cannot be moved)
 - ✅ Works with all KDE applications
+
+## 🚀 Planned Features
+
+- **Configuration GUI**: A user-friendly interface to customize percentage values without editing code
+- **Per-monitor settings**: Different configurations for different monitors
+- **Custom keyboard shortcuts**: GUI to modify shortcuts without editing the script
+- **Window type filters**: Option to exclude certain window types from being moved
 
 ## 🐛 Troubleshooting
 
