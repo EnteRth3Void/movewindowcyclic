@@ -27,15 +27,22 @@ A KWin script for KDE Plasma that allows cycling windows between different posit
 ## 📦 Installation
 
 ### Via KDE Store (Recommended)
-1. Open KDE System Settings → Workspace → Scripts
-2. Click "Get New Scripts..."
+1. Open KDE System Settings → Window Management → KWin Scripts
+2. Click "Get New KWin Scripts..."
 3. Search for "MoveWindowCyclic"
 4. Install and enable the script
 
 ### Manual Installation
-1. Download the script
-2. Copy the `movewindowcyclic` folder to `~/.local/share/kwin/scripts/`
-3. Open KDE System Settings → Workspace → Scripts
+
+#### Option 1: Using kpackagetool6 (Recommended)
+1. Download and extract the script
+2. Install using: `kpackagetool6 --type=KWin/Script -i /path/to/movewindowcyclic/`
+3. Enable in KDE System Settings → Window Management → KWin Scripts
+
+#### Option 2: Via GUI
+1. Download the `.kwinscript` file
+2. Open KDE System Settings → Window Management → KWin Scripts
+3. Click "Import KWin Script..." and select the downloaded file
 4. Enable the "Move Window Cyclic" script
 
 ## 🔧 Usage
